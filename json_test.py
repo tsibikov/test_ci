@@ -5,10 +5,10 @@ import io
 with io.open("test.json", 'r') as f:
         settings = json.load(f)
         alerts_list = settings["alerts"]
-        for alert in alerts_list:
-                alert_name = alert.get["alert_name"]
-                regis_id = alert.get["regis_id"]
-                ignore = alert.get["ignore"]
-                if alert_name == None or regis_id == None or ignore == None:
-                        raise Exception("Can not pasrse json")
+        for alert_settings in alerts_list:
+                alert_name = alert_settings.get("alert_name")
+                regis_alert_id = alert_settings.get("regis_id")
+                ignore = alert_settings.get("ignore")
+                if alert_name == None or regis_alert_id == None or ignore == None:
+                        raise Exception("Can not parse json")
                                 
