@@ -11,8 +11,8 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: 3.7
+        python-version: 3.11
 
-    - name: Test with flake8 and django tests
+    - name: Test setting in json
       run: |
         python3 json_test.py
