@@ -4,8 +4,15 @@ on: [push]
 
 jobs:
   tests:
-    runs-on: python
+    runs-on: ubuntu-latest
+
     steps:
-    - name: Test json
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.7
+
+    - name: Test with flake8 and django tests
       run: |
         python3 json_test.py
