@@ -1,4 +1,4 @@
-{"alerts1": [
+{"alerts": [
     {"alert_name": "SDU-Edges-Operation", "regis_id": "10777309", "ignore": "true"},
     {"alert_name": "SDU-Edges-LinkInfo", "regis_id": "10777310", "ignore": "true"},
     {"alert_name": "SDU-ConverterTrackingFull", "regis_id": "10777311", "ignore": "true"},
