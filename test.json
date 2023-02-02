@@ -1,5 +1,5 @@
 {"alerts": [
-    {"alert_name": "SDU-Edges-Operation", "regis_id": "10777309", "ignore": "true"},
+    {"alert_name": "SDU-Edges-Operation", "regis_id": "10777309"},
     {"alert_name": "SDU-Edges-LinkInfo", "regis_id": "10777310", "ignore": "true"},
     {"alert_name": "SDU-ConverterTrackingFull", "regis_id": "10777311", "ignore": "true"},
     {"alert_name": "SDU-Converter-TTR2", "regis_id": "10777312", "ignore": "true"},
@@ -11,7 +11,7 @@
     {"alert_name": "SDU-Converter-AnmEvent", "regis_id": "10777318", "ignore": "true"},
     {"alert_name": "SDU-Converter-GsdpNew", "regis_id": "10777319", "ignore": "true"},
     {"alert_name": "SDU-Converter-EDIFACT-PredesResdes", "regis_id": "10777320", "ignore": "true"},
-    {"alert_name": "SDU-Converter-Assessment", "regis_id": "10777321", "ignore": "true"}
+    {"alert_name": "SDU-Converter-Assessment", "regis_id": "10777321", "ignore": "true"},
     {"alert_name": "SDU-Converter-Common", "regis_id": "10777322", "ignore": "true"},
     {"alert_name": "SDU-EAS-F22-Doc", "regis_id": "10777323", "ignore": "true"},
     {"alert_name": "SDU-DataBus-Status", "regis_id": "10777324", "ignore": "true"},
