@@ -13,14 +13,14 @@ if __name__ == "__main__":
                                 alert_name = alert_settings["alert_name"]
                         except:
                                 print(f"No alert name in string {i}")
-                                exit()
+                                raise Exception()
                         try:
                                 regis_alert_id = alert_settings["regis_id"]
                         except:
                                 print(f"No regis id in string {i}")
-                                exit()
+                                raise Exception()
                         try:
                                 ignore = alert_settings["ignore"]
                         except:
                                 print(f"No ignore status in string {i}")
-                                exit()
+                                raise Exception()

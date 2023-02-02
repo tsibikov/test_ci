@@ -1,5 +1,5 @@
 {"alerts": [
-    {"alert_name": "SDU-Edges-Operation", "regis_id": "10777309"},
+    {"alert_name": "SDU-Edges-Operation", "regis_id": "10777309", "ignore": "true"},
     {"alert_name": "SDU-Edges-LinkInfo", "regis_id": "10777310", "ignore": "true"},
     {"alert_name": "SDU-ConverterTrackingFull", "regis_id": "10777311", "ignore": "true"},
     {"alert_name": "SDU-Converter-TTR2", "regis_id": "10777312", "ignore": "true"},
@@ -134,6 +134,6 @@
     {"alert_name": "Airflow-prod_v2_vkd", "regis_id": "10777547","ignore": "true"},
     {"alert_name": "QlikSense-dev_uat_preprod", "regis_id": "10777206","ignore": "true"},
     {"alert_name": "Clickhouse-uat", "regis_id": "10777532", "ignore": "true"},
-    {"alert_name": "Metabase-uat", "regis_id": "10777210", "ignore": "false"}
+    {"alert_name": "Metabase-uat", "regis_id": "10777210"}
     ]
 }
