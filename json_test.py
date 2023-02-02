@@ -11,11 +11,11 @@ if __name__ == "__main__":
                         i += 1
                         alert_name = alert_settings.get("alert_name")
                         if alert_name == None:
-                                raise Exception("No alert name in string {i}")
+                                raise Exception(f"No alert name in string {i}")
                         regis_alert_id = alert_settings.get("regis_id")
                         if regis_alert_id == None:
-                                raise Exception("No alert name in string {i}")
+                                raise Exception(f"No alert name in string {i}")
                         ignore = alert_settings.get("ignore")
                         if ignore == None:
-                                raise Exception("No alert name in string {i}")
+                                raise Exception(f"No alert name in string {i}")
                                         
