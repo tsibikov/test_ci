@@ -5,7 +5,7 @@ import io
 if __name__ == "__main__":
         with io.open("test.json", 'r') as f:
                 settings = json.load(f)
-                alerts_list = settings.get["alerts"]
+                alerts_list = settings.get("alerts")
                 if alerts_list == None:
                         raise Exception(f"Can not parse json. No alerts list")
                 for alert_settings in alerts_list:
