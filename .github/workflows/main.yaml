@@ -4,13 +4,8 @@ on: [push]
 
 jobs:
   tests:
-    runs-on: ubuntu-latest
+    runs-on: python
     steps:
-    - name: Set up Python
-      uses: actions/checkout@v3
-      with:
-        python-version: 3.7
-
     - name: Test json
       run: |
         python3 json_test.py
